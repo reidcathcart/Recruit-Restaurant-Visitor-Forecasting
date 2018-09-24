@@ -6,7 +6,7 @@ This is an exercise to help me understand more about regression, feature enginee
 
 In this competition, you're challenged to use reservation and visitation data to predict the total number of visitors to a restaurant for future dates. This is a relational dataset from two systems. Each file is prefaced with the source (either air_ or hpg_) to indicate its origin. Each restaurant has a unique air_store_id and hpg_store_id. Note that not all restaurants are covered by both systems, and that you have been provided data beyond the restaurants for which you must forecast. Latitudes and Longitudes are not exact to discourage de-identification of restaurants. The data contained the following files:
 
-#### air_reserve.csv
+### air_reserve.csv
 
 This file contains reservations made in the air system. Note that the reserve_datetime indicates the time when the reservation was created, whereas the visit_datetime is the time in the future where the visit will occur.
 
@@ -18,7 +18,7 @@ This file contains reservations made in the air system. Note that the reserve_da
 
 **reserve_visitors** - the number of visitors for that reservation
 
-#### hpg_reserve.csv
+### hpg_reserve.csv
 
 This file contains reservations made in the hpg system.
 
@@ -30,7 +30,7 @@ This file contains reservations made in the hpg system.
 
 **reserve_visitors** - the number of visitors for that reservation
 
-#### air_store_info.csv
+### air_store_info.csv
 
 This file contains information about select air restaurants. Column names and contents are self-explanatory.
 
@@ -46,7 +46,7 @@ This file contains information about select air restaurants. Column names and co
 
 Note: latitude and longitude are the latitude and longitude of the area to which the store belongs
 
-#### hpg_store_info.csv
+### hpg_store_info.csv
 
 This file contains information about select hpg restaurants. Column names and contents are self-explanatory.
 
@@ -62,14 +62,14 @@ This file contains information about select hpg restaurants. Column names and co
 
 Note: latitude and longitude are the latitude and longitude of the area to which the store belongs
 
-#### store_id_relation.csv
+### store_id_relation.csv
 
 This file allows you to join select restaurants that have both the air and hpg system.
 
 **hpg_store_id**
 **air_store_id**
 
-#### air_visit_data.csv
+### air_visit_data.csv
 
 This file contains historical visit data for the air restaurants.
 
@@ -87,7 +87,7 @@ This file shows a submission in the correct format, including the days for which
 
 **visitors** - the number of visitors forecasted for the store and date combination
 
-#### date_info.csv
+### date_info.csv
 
 This file gives basic information about the calendar dates in the dataset.
 
