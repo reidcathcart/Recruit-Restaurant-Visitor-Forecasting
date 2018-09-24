@@ -124,7 +124,7 @@ Data and a more detailed description can be found [here](https://www.kaggle.com/
 - Reservations through these services only provide ~25% of the clientele.
 
 ## Interesting Plots
-![Plot of restaurants on map](images/rest_plot.png)
+![Plot of restaurants on map](images/rest_plot.PNG)
 
 ![Reservation visitors by season and genre](images/res_vis_sea_gen.png)
 
